@@ -1,0 +1,64 @@
+.site-header, .site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.site-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.site-footer p {
+    margin: 0;
+    color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.newsletter-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.news-item h2 {
+    color: #333;
+}
+
+.news-item p {
+    color: #666;
+}
+
+.news-item img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+/* Existing CSS from styles.css, then add: */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+.header-profile a, .header-logo img {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
